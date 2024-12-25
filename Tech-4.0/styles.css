@@ -31,9 +31,11 @@ body {
     height: 100%;
     top: 0;
     left: 0;
+    backface-visibility: hidden;
 }
 .left-card .card-back {
     background: #f4f4f4;
+    transform: rotateY(180deg);
 }
 
 /*open card */
