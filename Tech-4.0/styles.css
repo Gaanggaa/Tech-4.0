@@ -32,10 +32,19 @@ body {
     top: 0;
     left: 0;
     backface-visibility: hidden;
+<<<<<<< HEAD
 }
 .left-card .card-back {
     background: #f4f4f4;
     transform: rotateY(180deg);
+=======
+    
+}
+.left-card .card-back {
+    background: #f4f4f4;
+    tranform: rotateY(180deg);
+    
+>>>>>>> 06d6a72a28b005e4d90e4876d02f438d05a097f1
 }
 
 /*open card */
